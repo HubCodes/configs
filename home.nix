@@ -38,7 +38,7 @@
     userEmail = "krlrhkstk12@gmail.com";
   };
 
-   programs.bash = {
+  programs.bash = {
     enable = true;
     enableCompletion = true;
     bashrcExtra = ''
@@ -47,6 +47,14 @@
     shellAliases = {
       g = "git";
     };
+  };
+
+  programs.vscode = {
+    enable = true;
+    extensions = with pkgs.vscode-extensions; [
+      vscodevim.vim
+      bbenoist.nix
+    ];
   };
 
   home.stateVersion = "24.11";
