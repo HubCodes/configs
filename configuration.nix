@@ -159,6 +159,7 @@
   # --- fonts
   fonts.packages = with pkgs; [
     noto-fonts-cjk-sans
+    iosevka
   ];
 
   # Some programs need SUID wrappers, can be configured further or are

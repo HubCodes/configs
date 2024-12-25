@@ -56,6 +56,14 @@
       bbenoist.nix
       pkief.material-icon-theme
     ];
+
+    userSettings = {
+      "editor.fontSize" = 17;
+      "editor.fontFamily" = "'Iosevka', 'monospace'";
+      "terminal.integrated.fontSize" = 17;
+      "terminal.integrated.fontFamily" = "'Iosevka', 'monospace'";
+      "workbench.iconTheme" = "material-icon-theme";
+    };
   };
 
   home.stateVersion = "24.11";
