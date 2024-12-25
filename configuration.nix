@@ -130,6 +130,7 @@
     packages = with pkgs; [
     #  thunderbird
       pkgs.htop
+      pkgs.obsidian
     ];
   };
 
