@@ -54,6 +54,7 @@
     extensions = with pkgs.vscode-extensions; [
       vscodevim.vim
       bbenoist.nix
+      pkief.material-icon-theme
     ];
   };
 
