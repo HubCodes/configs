@@ -128,6 +128,7 @@
     #  thunderbird
       pkgs.htop
       pkgs.obsidian
+      pkgs.mission-center
     ];
   };
 
